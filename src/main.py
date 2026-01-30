@@ -43,10 +43,9 @@ def parse_height_cm(hero: dict) -> Optional[int]:
     except ValueError:
         return None
 
-    v = value.lower()
-    if CM_UNIT in v:
+    if CM_UNIT in value:
         return int(num)
-    if METER_UNIT in v:
+    if METER_UNIT in value:
         return int(num * METERS_TO_CM)
     return None
 
