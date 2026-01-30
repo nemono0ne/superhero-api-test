@@ -26,19 +26,16 @@
 ## Для установки зависимостей проекта
 ```
 pip install -r requirements.txt
-
 ```
 
 ## Запуск тестов
 - Для запуска всех тестов
 ```
 pytest  -v
- 
 ```
 - Для запуска интеграционных тестов апи
 ```
 pytest -m integration -v
-
 ```
 ![](img/img_result.jpg)<br>
 
